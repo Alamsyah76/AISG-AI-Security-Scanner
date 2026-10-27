@@ -1,0 +1,31 @@
+# Jangan pernah commit rahasia ke repo publik ini.
+.env
+.env.*
+*.env
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Database & laporan (bisa berisi data pengguna)
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.csv
+reports/
+logs/
+access.log
+*.log
+
+# Artefak build & lokal
+node_modules/
+.venv/
+.venv-test/
+__pycache__/
+*.pyc
+dist/
+build/
+.DS_Store
+Thumbs.db
